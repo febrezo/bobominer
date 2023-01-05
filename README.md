@@ -64,7 +64,7 @@ The MITRE Attack TTP thats are implemented in this PoC can be listed as follows.
 - TA0005 Defense Evasion | [T1027.002: Obfuscated Files or Information: Software Packing](https://attack.mitre.org/techniques/T1027/002) by compiling malicious shell payload using SHC.
 - TA0005 Defense Evasion | [T1622: Debugger Evasion](https://attack.mitre.org/techniques/T622/) by compiling malicious shell payload using SHC and the parameter '-r'.
 - TA0011 Command & Control | [T1105: Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/) by downloading additional payloads from Github.
-- TA0012 Impact | [T1496: Resource Hijacking](https://attack.mitre.org/techniques/T1496/) by means of the download of XMRig official miner at Github.
+- TA0012 Impact | [T1496: Resource Hijacking](https://attack.mitre.org/techniques/T1496/) by means of the download of XMRig official miner from Github.
 
 ## References
 
