@@ -27,9 +27,9 @@ if [ $# -eq 0 ]
 fi
 
 echo "1. Download the official miner from Github…"
-wget https://github.com/xmrig/xmrig/releases/download/v6.18.1/xmrig-6.18.1-linux-static-x64.tar.gz -O miner.tar.gz
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.1/xmrig-6.18.1-linux-static-x64.tar.gz -O /tmp/miner.tar.gz
 echo "2. Untar the file…"
-tar xvfz miner.tar.gz
+tar xvfz /tmp/miner.tar.gz
 echo "3. Remove the miner.tar.gz file…"
 rm miner.tar.gz
 echo "4. Changing permissions…"
